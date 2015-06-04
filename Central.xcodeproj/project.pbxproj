@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		174DDC4C1B1FB75E00B2BD9B /* MainViewControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174DDC4B1B1FB75E00B2BD9B /* MainViewControllerSwift.swift */; };
 		3C0998501A8BEF2D000617CC /* popOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C09984F1A8BEF2D000617CC /* popOverViewController.m */; };
 		3C1455941A6C9A2D002CFF23 /* SocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1455931A6C9A2D002CFF23 /* SocialViewController.m */; };
 		3C1455971A6C9E36002CFF23 /* Twitter_logo_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C1455961A6C9E36002CFF23 /* Twitter_logo_blue.png */; };
@@ -114,6 +115,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		174DDC4B1B1FB75E00B2BD9B /* MainViewControllerSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewControllerSwift.swift; sourceTree = "<group>"; };
 		3C09984E1A8BEF2D000617CC /* popOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popOverViewController.h; sourceTree = "<group>"; };
 		3C09984F1A8BEF2D000617CC /* popOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popOverViewController.m; sourceTree = "<group>"; };
 		3C1455921A6C9A2D002CFF23 /* SocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialViewController.h; sourceTree = "<group>"; };
@@ -626,6 +628,7 @@
 			children = (
 				FD3E66F1199EF50D0003059C /* ViewController.h */,
 				FD3E66F2199EF50D0003059C /* ViewController.m */,
+				174DDC4B1B1FB75E00B2BD9B /* MainViewControllerSwift.swift */,
 			);
 			name = "Main View";
 			sourceTree = "<group>";
@@ -771,6 +774,7 @@
 				FD3E66F3199EF50D0003059C /* ViewController.m in Sources */,
 				FDEB741E1A13D048008A191F /* StreamViewController.m in Sources */,
 				3C1455941A6C9A2D002CFF23 /* SocialViewController.m in Sources */,
+				174DDC4C1B1FB75E00B2BD9B /* MainViewControllerSwift.swift in Sources */,
 				FD3E6715199EF9170003059C /* OnlineGradesViewController.m in Sources */,
 				3C924B451A64478600655F53 /* Four_Downstairs_ViewController.m in Sources */,
 				3C924B3D1A64475200655F53 /* Six_Upstairs_ViewController.m in Sources */,
