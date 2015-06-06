@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA8F38421B228A7B0038451D /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F38411B228A7B0038451D /* ClassViewController.swift */; };
+		FAA5E8B21B207DB5007D60DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5E8B11B207DB5007D60DE /* AppDelegate.swift */; };
+		FAA5E8B41B207DB5007D60DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5E8B31B207DB5007D60DE /* ViewController.swift */; };
+		FAA5E8B71B207DB5007D60DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA5E8B51B207DB5007D60DE /* Main.storyboard */; };
+		FAA5E8B91B207DB5007D60DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5E8B81B207DB5007D60DE /* Images.xcassets */; };
+		FAA5E8BC1B207DB5007D60DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA5E8BA1B207DB5007D60DE /* LaunchScreen.xib */; };
+		FAA5E8C81B207DB5007D60DE /* Central_York_School_DistrictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5E8C71B207DB5007D60DE /* Central_York_School_DistrictTests.swift */; };
+		FAA5E8D21B207DF7007D60DE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8D11B207DF7007D60DE /* AudioToolbox.framework */; };
+		FAA5E8D41B207E03007D60DE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8D31B207E03007D60DE /* CFNetwork.framework */; };
+		FAA5E8D61B207E10007D60DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8D51B207E10007D60DE /* CoreGraphics.framework */; };
+		FAA5E8D81B207E19007D60DE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8D71B207E19007D60DE /* CoreLocation.framework */; };
+		FAA5E8DA1B20CDBD007D60DE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8D91B20CDBD007D60DE /* MobileCoreServices.framework */; };
+		FAA5E8DC1B20CDCD007D60DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8DB1B20CDCD007D60DE /* QuartzCore.framework */; };
+		FAA5E8DE1B20CDF1007D60DE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8DD1B20CDF1007D60DE /* Security.framework */; };
+		FAA5E8E01B20CDFF007D60DE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8DF1B20CDFF007D60DE /* StoreKit.framework */; };
+		FAA5E8E21B20CE0D007D60DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8E11B20CE0D007D60DE /* SystemConfiguration.framework */; };
+		FAA5E8E41B20CE22007D60DE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8E31B20CE22007D60DE /* libz.dylib */; };
+		FAA5E8E61B20CE2D007D60DE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8E51B20CE2D007D60DE /* libsqlite3.dylib */; };
+		FAA5E8ED1B20CEDE007D60DE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8E71B20CEDE007D60DE /* Bolts.framework */; };
+		FAA5E8EE1B20CEDE007D60DE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8E81B20CEDE007D60DE /* Parse.framework */; };
+		FAA5E8EF1B20CEDE007D60DE /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8E91B20CEDE007D60DE /* ParseCrashReporting.framework */; };
+		FAA5E8F01B20CEDE007D60DE /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8EA1B20CEDE007D60DE /* ParseFacebookUtils.framework */; };
+		FAA5E8F11B20CEDE007D60DE /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8EB1B20CEDE007D60DE /* ParseFacebookUtilsV4.framework */; };
+		FAA5E8F21B20CEDE007D60DE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8EC1B20CEDE007D60DE /* ParseUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA5E8C21B207DB5007D60DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA5E8A41B207DB5007D60DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA5E8AB1B207DB5007D60DE;
+			remoteInfo = "Central York School District";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA8F38411B228A7B0038451D /* ClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
+		FAA5E8AC1B207DB5007D60DE /* Central York School District.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Central York School District.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5E8B01B207DB5007D60DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5E8B11B207DB5007D60DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA5E8B31B207DB5007D60DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA5E8B61B207DB5007D60DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA5E8B81B207DB5007D60DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAA5E8BB1B207DB5007D60DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAA5E8C11B207DB5007D60DE /* Central York School DistrictTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Central York School DistrictTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5E8C61B207DB5007D60DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA5E8C71B207DB5007D60DE /* Central_York_School_DistrictTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Central_York_School_DistrictTests.swift; sourceTree = "<group>"; };
+		FAA5E8D11B207DF7007D60DE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FAA5E8D31B207E03007D60DE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FAA5E8D51B207E10007D60DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAA5E8D71B207E19007D60DE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FAA5E8D91B20CDBD007D60DE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FAA5E8DB1B20CDCD007D60DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FAA5E8DD1B20CDF1007D60DE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FAA5E8DF1B20CDFF007D60DE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FAA5E8E11B20CE0D007D60DE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FAA5E8E31B20CE22007D60DE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FAA5E8E51B20CE2D007D60DE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FAA5E8E71B20CEDE007D60DE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1.7.4/Bolts.framework"; sourceTree = "<group>"; };
+		FAA5E8E81B20CEDE007D60DE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "parse-library-1.7.4/Parse.framework"; sourceTree = "<group>"; };
+		FAA5E8E91B20CEDE007D60DE /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "parse-library-1.7.4/ParseCrashReporting.framework"; sourceTree = "<group>"; };
+		FAA5E8EA1B20CEDE007D60DE /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "parse-library-1.7.4/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		FAA5E8EB1B20CEDE007D60DE /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "parse-library-1.7.4/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		FAA5E8EC1B20CEDE007D60DE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "parse-library-1.7.4/ParseUI.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA5E8A91B207DB5007D60DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5E8E61B20CE2D007D60DE /* libsqlite3.dylib in Frameworks */,
+				FAA5E8E41B20CE22007D60DE /* libz.dylib in Frameworks */,
+				FAA5E8E21B20CE0D007D60DE /* SystemConfiguration.framework in Frameworks */,
+				FAA5E8ED1B20CEDE007D60DE /* Bolts.framework in Frameworks */,
+				FAA5E8E01B20CDFF007D60DE /* StoreKit.framework in Frameworks */,
+				FAA5E8EF1B20CEDE007D60DE /* ParseCrashReporting.framework in Frameworks */,
+				FAA5E8DE1B20CDF1007D60DE /* Security.framework in Frameworks */,
+				FAA5E8EE1B20CEDE007D60DE /* Parse.framework in Frameworks */,
+				FAA5E8F01B20CEDE007D60DE /* ParseFacebookUtils.framework in Frameworks */,
+				FAA5E8F21B20CEDE007D60DE /* ParseUI.framework in Frameworks */,
+				FAA5E8DC1B20CDCD007D60DE /* QuartzCore.framework in Frameworks */,
+				FAA5E8F11B20CEDE007D60DE /* ParseFacebookUtilsV4.framework in Frameworks */,
+				FAA5E8DA1B20CDBD007D60DE /* MobileCoreServices.framework in Frameworks */,
+				FAA5E8D81B207E19007D60DE /* CoreLocation.framework in Frameworks */,
+				FAA5E8D61B207E10007D60DE /* CoreGraphics.framework in Frameworks */,
+				FAA5E8D41B207E03007D60DE /* CFNetwork.framework in Frameworks */,
+				FAA5E8D21B207DF7007D60DE /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5E8BE1B207DB5007D60DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA5E8A31B207DB5007D60DE = {
+			isa = PBXGroup;
+			children = (
+				FAA5E8E71B20CEDE007D60DE /* Bolts.framework */,
+				FAA5E8E81B20CEDE007D60DE /* Parse.framework */,
+				FAA5E8E91B20CEDE007D60DE /* ParseCrashReporting.framework */,
+				FAA5E8EA1B20CEDE007D60DE /* ParseFacebookUtils.framework */,
+				FAA5E8EB1B20CEDE007D60DE /* ParseFacebookUtilsV4.framework */,
+				FAA5E8EC1B20CEDE007D60DE /* ParseUI.framework */,
+				FAA5E8E51B20CE2D007D60DE /* libsqlite3.dylib */,
+				FAA5E8E31B20CE22007D60DE /* libz.dylib */,
+				FAA5E8E11B20CE0D007D60DE /* SystemConfiguration.framework */,
+				FAA5E8DF1B20CDFF007D60DE /* StoreKit.framework */,
+				FAA5E8DD1B20CDF1007D60DE /* Security.framework */,
+				FAA5E8DB1B20CDCD007D60DE /* QuartzCore.framework */,
+				FAA5E8D91B20CDBD007D60DE /* MobileCoreServices.framework */,
+				FAA5E8D71B207E19007D60DE /* CoreLocation.framework */,
+				FAA5E8D51B207E10007D60DE /* CoreGraphics.framework */,
+				FAA5E8D31B207E03007D60DE /* CFNetwork.framework */,
+				FAA5E8D11B207DF7007D60DE /* AudioToolbox.framework */,
+				FAA5E8AE1B207DB5007D60DE /* Central York School District */,
+				FAA5E8C41B207DB5007D60DE /* Central York School DistrictTests */,
+				FAA5E8AD1B207DB5007D60DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA5E8AD1B207DB5007D60DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5E8AC1B207DB5007D60DE /* Central York School District.app */,
+				FAA5E8C11B207DB5007D60DE /* Central York School DistrictTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA5E8AE1B207DB5007D60DE /* Central York School District */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5E8B11B207DB5007D60DE /* AppDelegate.swift */,
+				FAA5E8B31B207DB5007D60DE /* ViewController.swift */,
+				FA8F38411B228A7B0038451D /* ClassViewController.swift */,
+				FAA5E8B51B207DB5007D60DE /* Main.storyboard */,
+				FAA5E8B81B207DB5007D60DE /* Images.xcassets */,
+				FAA5E8BA1B207DB5007D60DE /* LaunchScreen.xib */,
+				FAA5E8AF1B207DB5007D60DE /* Supporting Files */,
+			);
+			path = "Central York School District";
+			sourceTree = "<group>";
+		};
+		FAA5E8AF1B207DB5007D60DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5E8B01B207DB5007D60DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA5E8C41B207DB5007D60DE /* Central York School DistrictTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5E8C71B207DB5007D60DE /* Central_York_School_DistrictTests.swift */,
+				FAA5E8C51B207DB5007D60DE /* Supporting Files */,
+			);
+			path = "Central York School DistrictTests";
+			sourceTree = "<group>";
+		};
+		FAA5E8C51B207DB5007D60DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5E8C61B207DB5007D60DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA5E8AB1B207DB5007D60DE /* Central York School District */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5E8CB1B207DB5007D60DE /* Build configuration list for PBXNativeTarget "Central York School District" */;
+			buildPhases = (
+				FAA5E8A81B207DB5007D60DE /* Sources */,
+				FAA5E8A91B207DB5007D60DE /* Frameworks */,
+				FAA5E8AA1B207DB5007D60DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Central York School District";
+			productName = "Central York School District";
+			productReference = FAA5E8AC1B207DB5007D60DE /* Central York School District.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA5E8C01B207DB5007D60DE /* Central York School DistrictTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5E8CE1B207DB5007D60DE /* Build configuration list for PBXNativeTarget "Central York School DistrictTests" */;
+			buildPhases = (
+				FAA5E8BD1B207DB5007D60DE /* Sources */,
+				FAA5E8BE1B207DB5007D60DE /* Frameworks */,
+				FAA5E8BF1B207DB5007D60DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA5E8C31B207DB5007D60DE /* PBXTargetDependency */,
+			);
+			name = "Central York School DistrictTests";
+			productName = "Central York School DistrictTests";
+			productReference = FAA5E8C11B207DB5007D60DE /* Central York School DistrictTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA5E8A41B207DB5007D60DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Alex Santarelli";
+				TargetAttributes = {
+					FAA5E8AB1B207DB5007D60DE = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = PT632YREQ3;
+					};
+					FAA5E8C01B207DB5007D60DE = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FAA5E8AB1B207DB5007D60DE;
+					};
+				};
+			};
+			buildConfigurationList = FAA5E8A71B207DB5007D60DE /* Build configuration list for PBXProject "Central York School District" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA5E8A31B207DB5007D60DE;
+			productRefGroup = FAA5E8AD1B207DB5007D60DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA5E8AB1B207DB5007D60DE /* Central York School District */,
+				FAA5E8C01B207DB5007D60DE /* Central York School DistrictTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA5E8AA1B207DB5007D60DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5E8B71B207DB5007D60DE /* Main.storyboard in Resources */,
+				FAA5E8BC1B207DB5007D60DE /* LaunchScreen.xib in Resources */,
+				FAA5E8B91B207DB5007D60DE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5E8BF1B207DB5007D60DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA5E8A81B207DB5007D60DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8F38421B228A7B0038451D /* ClassViewController.swift in Sources */,
+				FAA5E8B41B207DB5007D60DE /* ViewController.swift in Sources */,
+				FAA5E8B21B207DB5007D60DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5E8BD1B207DB5007D60DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5E8C81B207DB5007D60DE /* Central_York_School_DistrictTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA5E8C31B207DB5007D60DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA5E8AB1B207DB5007D60DE /* Central York School District */;
+			targetProxy = FAA5E8C21B207DB5007D60DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA5E8B51B207DB5007D60DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA5E8B61B207DB5007D60DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA5E8BA1B207DB5007D60DE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA5E8BB1B207DB5007D60DE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA5E8C91B207DB5007D60DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA5E8CA1B207DB5007D60DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA5E8CC1B207DB5007D60DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.7.4",
+				);
+				INFOPLIST_FILE = "Central York School District/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAA5E8CD1B207DB5007D60DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.7.4",
+				);
+				INFOPLIST_FILE = "Central York School District/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAA5E8CF1B207DB5007D60DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Central York School DistrictTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Central York School District.app/Central York School District";
+			};
+			name = Debug;
+		};
+		FAA5E8D01B207DB5007D60DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Central York School DistrictTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Central York School District.app/Central York School District";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA5E8A71B207DB5007D60DE /* Build configuration list for PBXProject "Central York School District" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5E8C91B207DB5007D60DE /* Debug */,
+				FAA5E8CA1B207DB5007D60DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5E8CB1B207DB5007D60DE /* Build configuration list for PBXNativeTarget "Central York School District" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5E8CC1B207DB5007D60DE /* Debug */,
+				FAA5E8CD1B207DB5007D60DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5E8CE1B207DB5007D60DE /* Build configuration list for PBXNativeTarget "Central York School DistrictTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5E8CF1B207DB5007D60DE /* Debug */,
+				FAA5E8D01B207DB5007D60DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA5E8A41B207DB5007D60DE /* Project object */;
+}

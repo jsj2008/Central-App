@@ -17,7 +17,7 @@
 @implementation ViewController
 
 
-
+/*
 - (IBAction)livePressed:(id)sender {
     NSLog(@"Live Pressed");
 
@@ -26,7 +26,7 @@
 
 
 }
-/* NO LONGER VALID IN SWIFT
+NO LONGER VALID IN SWIFT
 - (void)appDidBecomeActive:(NSNotification *)notification {
     NSLog(@"did become active notification");
     PFQuery *query = [PFQuery queryWithClassName:@"Settings"];

@@ -169,6 +169,7 @@
 		3CFD8D0A1AB60075006618E0 /* switch2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = switch2.png; sourceTree = "<group>"; };
 		FA606BF31A696DC4008003CC /* TechHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechHelpViewController.h; sourceTree = "<group>"; };
 		FA606BF41A696DC4008003CC /* TechHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechHelpViewController.m; sourceTree = "<group>"; };
+		FAA5E8A21B2074A8007D60DE /* Central-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Central-Bridging-Header.h"; sourceTree = "<group>"; };
 		FAC17C711A6D6B8A000C8201 /* LibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryViewController.h; sourceTree = "<group>"; };
 		FAC17C721A6D6B8A000C8201 /* LibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryViewController.m; sourceTree = "<group>"; };
 		FD14D9741A37352B00C191D2 /* CTV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CTV.png; sourceTree = "<group>"; };
@@ -383,6 +384,7 @@
 		FD3E66CD199EF50C0003059C = {
 			isa = PBXGroup;
 			children = (
+				FAA5E8A21B2074A8007D60DE /* Central-Bridging-Header.h */,
 				FD3E66DF199EF50D0003059C /* Central */,
 				FD3E6701199EF50D0003059C /* CentralTests */,
 				FD3E66D8199EF50D0003059C /* Frameworks */,
@@ -681,7 +683,7 @@
 				ORGANIZATIONNAME = "Caleb Linburg";
 				TargetAttributes = {
 					FD3E66D5199EF50C0003059C = {
-						DevelopmentTeam = 5265CHUU6G;
+						DevelopmentTeam = PT632YREQ3;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
 								enabled = 0;
@@ -952,7 +954,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Central/Central-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Central-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
@@ -978,7 +980,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "Central/Central-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Central-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

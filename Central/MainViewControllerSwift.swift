@@ -15,38 +15,36 @@ class MainViewControllerSwift: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let openDefault = NSUserDefaults.standardUserDefaults().objectForKey("OPEN")
-        if !openDefault {
-            if UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad {
-                self.performSegueWithIdentifier("Open", sender: self)
-            } else {
-                self.performSegueWithIdentifier("OpenPhone", sender: self)
-            }
+        //let openDefault: String? = NSUserDefaults.standardUserDefaults().objectForKey("OPEN") as? String
+        //if openDefault as! String == nil {
+            //if UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad {
+               // self.performSegueWithIdentifier("Open", sender: self)
+            //} else {
+                //self.performSegueWithIdentifier("OpenPhone", sender: self)
+            //}
 
-            openDefault?.setObject("OPENED", forKey: "OPEN")
+            //openDefault?.setObject("OPENED", forKey: "OPEN")
 
-        }
+        //}
         //Remove once Object has been created.
-        let liveButton = PFObject(className: "Live")
-        liveButton["LiveButton"] = "ON"
-        liveButton["LiveURL"] = "http://www.cypanthers.org"
-        liveButton.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
-            println("Live Object has been saved.")
-        }
 
-        var backgroundPicDefault = NSUserDefaults.standardUserDefaults().objectForKey("Background")
+        var backgroundPicDefault = NSUserDefaults.standardUserDefaults().objectForKey("Background") as! String
 
         switch backgroundPicDefault {
         case "Outside":
             println("The background was set to Outside.")
-            let image:UIImage = UIImage(named: "Outside.png")
+            let image:UIImage = UIImage(named: "Outside.png")!
             //set the image to the image view
         case "Library":
             println("The Background was set to The Library.")
-            let image2:UIImage = UIImage(named: "Library.png")
+            let image2:UIImage = UIImage(named: "Library.png")!
         case "Atrium":
             println("The Background was set to the Atrium.")
-            let image3:UIImage = UIImage(named: "roof_done.png")
+            let image3:UIImage = UIImage(named: "roof_done.png")!
+        //For new backgrounds
+        case "Dandelion":
+            println("The Background was set to the Dandelion")
+            let image4:UIImage = UIImage(named: "dandelion_school.png")!
         default:
             println("Default, Background was set to Outside.")
 
