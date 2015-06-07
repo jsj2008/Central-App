@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17B382351B23B5300061ABFC /* OpeningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B382341B23B5300061ABFC /* OpeningViewController.swift */; };
 		FA8F38421B228A7B0038451D /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8F38411B228A7B0038451D /* ClassViewController.swift */; };
 		FAA5E8B21B207DB5007D60DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5E8B11B207DB5007D60DE /* AppDelegate.swift */; };
 		FAA5E8B41B207DB5007D60DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5E8B31B207DB5007D60DE /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17B382341B23B5300061ABFC /* OpeningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpeningViewController.swift; sourceTree = "<group>"; };
 		FA8F38411B228A7B0038451D /* ClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
 		FAA5E8AC1B207DB5007D60DE /* Central York School District.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Central York School District.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA5E8B01B207DB5007D60DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				FAA5E8B11B207DB5007D60DE /* AppDelegate.swift */,
 				FAA5E8B31B207DB5007D60DE /* ViewController.swift */,
 				FA8F38411B228A7B0038451D /* ClassViewController.swift */,
+				17B382341B23B5300061ABFC /* OpeningViewController.swift */,
 				FAA5E8B51B207DB5007D60DE /* Main.storyboard */,
 				FAA5E8B81B207DB5007D60DE /* Images.xcassets */,
 				FAA5E8BA1B207DB5007D60DE /* LaunchScreen.xib */,
@@ -285,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA8F38421B228A7B0038451D /* ClassViewController.swift in Sources */,
+				17B382351B23B5300061ABFC /* OpeningViewController.swift in Sources */,
 				FAA5E8B41B207DB5007D60DE /* ViewController.swift in Sources */,
 				FAA5E8B21B207DB5007D60DE /* AppDelegate.swift in Sources */,
 			);

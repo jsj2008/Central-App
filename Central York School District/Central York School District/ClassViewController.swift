@@ -27,7 +27,7 @@ class ClassViewController: UIViewController {
         let currentStudent = Student(username: "ParseUsername", studentObjID: "ParseUserObjectID")
         
         let studentQuery = PFQuery(className: "StudentName")
-        studentQuery.countObjectsInBackgroundWithBlock(<#block: PFIntegerResultBlock?##(Int32, NSError?) -> Void#>)
+        //studentQuery.countObjectsInBackgroundWithBlock(<#block: PFIntegerResultBlock?##(Int32, NSError?) -> Void#>)
         
     }
 }

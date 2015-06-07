@@ -24,7 +24,6 @@ class ViewController: UIViewController {
             println("Live Object has been saved.")
 
         }
-        */
         //Retriving the Live Button Data
         var query = PFQuery(className:"Live")
         query.getObjectInBackgroundWithId("yphRC9iOKW") {
@@ -34,9 +33,9 @@ class ViewController: UIViewController {
             var liveString:AnyObject? = liveButton!.objectForKey("LiveButton") as! NSString
             self.liveCompare = liveString as! NSString
 
-            
+
             switch self.liveCompare {
-              
+
             case "ON":
                 //unhide the live button
                 println("The Live button should be un-hidden.")
@@ -50,7 +49,7 @@ class ViewController: UIViewController {
 
           } else {
             println(error)
-          }
+
         }
 
     }
@@ -59,6 +58,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+*/
+    }
 }

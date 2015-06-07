@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0539DFE0-9887-469B-BD10-58EF21FF126B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Central York School District</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>3BFAED217963881455F43848DDAAEF55AF817789</key>
 		<string>https://github.com/Alexs2424/Central-App.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Central York School District/Central York School District.xcodeproj</string>
+	<string>Central York School District/Central York School District.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3BFAED217963881455F43848DDAAEF55AF817789</key>

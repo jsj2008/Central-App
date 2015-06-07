@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D3B1D9E5-E4F1-4EB3-9F34-6A6CBE02B30C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Central</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>3BFAED217963881455F43848DDAAEF55AF817789</key>
 		<string>https://github.com/Alexs2424/Central-App.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Central.xcodeproj</string>
+	<string>Central.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3BFAED217963881455F43848DDAAEF55AF817789</key>
