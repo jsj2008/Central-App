@@ -115,7 +115,6 @@ NO LONGER VALID IN SWIFT
     }
     */
     //initial app startup
-    NSUserDefaults *standardUserDefaults = [[NSUserDefaults alloc] init];
 
     NSString *isOpened = [[NSUserDefaults standardUserDefaults] objectForKey:@"OPEN"];
 
@@ -128,7 +127,6 @@ NO LONGER VALID IN SWIFT
     }//end of if
 
 
-    [[NSUserDefaults standardUserDefaults] setObject:@"Opened" forKey:@"OPEN"];
 
 }
 

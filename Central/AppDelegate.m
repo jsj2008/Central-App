@@ -33,7 +33,7 @@
     // Override point for customization after application launch.
     [ParseCrashReporting enable];
     [Parse setApplicationId:@"tmaAsvxOFn6NWpYMQ5JvEXfd5kO9qKnwiVpVHW8S"
-                  clientKey:@"0I7Z95FnEcHI2QWq7FED1V2qduSgMShtJcvZX4wQ"];
+                  clientKey:@"0I7Z95FnEcHI2QWq7FED1V2qduSgMShtJcvZX4wQ"];   
     
     //Trakcing how many people open the App Daily thorugh Parse Analytics
    

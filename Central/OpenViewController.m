@@ -31,8 +31,6 @@
 }
 
 - (IBAction)savePressed:(id)sender {
-    NSUserDefaults *standardUserDefaults = [[NSUserDefaults alloc] init];
-    
     
     [[NSUserDefaults standardUserDefaults] setObject:_usernameBlank.text forKey:@"USERNAME"];
     [[NSUserDefaults standardUserDefaults] setObject:_passwordBlank.text forKey:@"PASSWORD"];

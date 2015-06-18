@@ -24,6 +24,7 @@ class ViewController: UIViewController {
             println("Live Object has been saved.")
 
         }
+        */
         //Retriving the Live Button Data
         var query = PFQuery(className:"Live")
         query.getObjectInBackgroundWithId("yphRC9iOKW") {
@@ -32,32 +33,41 @@ class ViewController: UIViewController {
             println(liveButton)
             var liveString:AnyObject? = liveButton!.objectForKey("LiveButton") as! NSString
             self.liveCompare = liveString as! NSString
-
-
+            
             switch self.liveCompare {
-
-            case "ON":
-                //unhide the live button
-                println("The Live button should be un-hidden.")
-            case "OFF":
-                //hide the live Button
-                println("The Live Button should be hidden.")
-              default:
-                //hide the live button
-                println("Check Parse, there was an error.")
+                case "ON":
+                    //unhide the live button
+                    println("The Live button should be un-hidden.")
+                case "OFF":
+                    //hide the live Button
+                    println("The Live Button should be hidden.")
+                  default:
+                    //hide the live button
+                    println("Check Parse, there was an error.")
             }
 
-          } else {
-            println(error)
+            } else {
+                println(error)
+            }
 
         }
-
+        
+        //grab the inital NSUserDefault values to see if we start at another view or stay here
+        let initialView = NSUserDefaults.standardUserDefaults().objectForKey("OPENED") as! NSString
+        
+        if initialView.isEqualToString("Opened") {
+            if UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiom.Pad {
+                self.performSegueWithIdentifier("OpeniPad", sender: self)
+            } else {
+                self.performSegueWithIdentifier("OpeniPhone", sender: self)
+            }
+        }
+        
+    
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-*/
     }
 }
