@@ -10,6 +10,12 @@ import UIKit
 import Parse
 
 class OpeningViewController: UIViewController, NSURLConnectionDataDelegate {
+    
+    @IBOutlet weak var openViewBackground: UIImageView!
+    
+    var timerIncrement:Int = 1
+    
+    
   //let username:String = "17asantarelli"
     //creating the mutableData
     let data:NSMutableData = NSMutableData()
@@ -33,7 +39,15 @@ class OpeningViewController: UIViewController, NSURLConnectionDataDelegate {
         studentObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
             println("Student Object has been saved.")
         }
+        
+        
 */
+        //Adding the timer for the picture fade
+        var fadeTimer:NSTimer? = nil
+        
+        fadeTimer = NSTimer(timeInterval: 5.0, target: self, selector: "changeBackgrounds", userInfo: nil, repeats: true)
+        NSRunLoop.currentRunLoop().addTimer(fadeTimer!, forMode: NSRunLoopCommonModes)
+        
         self.saveButton("17asantarelli", password: "94Estral")
     }
 
@@ -42,7 +56,36 @@ class OpeningViewController: UIViewController, NSURLConnectionDataDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    func changeBackgrounds() {
+        self.timerIncrement++
+        let image1:UIImage = UIImage(named: "Panther Background")!
+        let image2:UIImage = UIImage(named: "Atrium Background")!
+        let image3:UIImage = UIImage(named: "Dandelion Background")!
+        
+        switch self.timerIncrement {
+        case 1:
+            println("This is the Panther Background")
+            //self.openViewBackground = UIImageView(image: image1)
+            self.changeBackgroundAnimation(image1)
+        case 2:
+            println("This is the Atrium Background")
+            //self.openViewBackground = UIImageView(image: image2)
+            self.changeBackgroundAnimation(image2)
+        case 3:
+            println("This is the Dandelion Background")
+            //self.openViewBackground = UIImageView(image: image3)
+            self.changeBackgroundAnimation(image3)
+            self.timerIncrement = 1
+        default:
+            println("There was an error. Check the Value of the timerIncrement.")
+        }
+    }
     
+    func changeBackgroundAnimation(background: UIImage) {
+        UIView.animateWithDuration(1.0, animations: {
+            self.openViewBackground = UIImageView(image: background)
+        })
+    }
     //HomeButton Pressed
     // self.navigationController.popOverViewController.animated.YES
     
