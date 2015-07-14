@@ -8,12 +8,13 @@
 
 import UIKit
 import Parse
+import Foundation
 
 class OpeningViewController: UIViewController, NSURLConnectionDataDelegate {
     
     @IBOutlet weak var openViewBackground: UIImageView!
     
-    var timerIncrement:Int = 1
+    var timerIncrement:Int = 2
     
     
   //let username:String = "17asantarelli"
@@ -22,6 +23,8 @@ class OpeningViewController: UIViewController, NSURLConnectionDataDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.title = "Welcome!"
         //Looking for the Username of the Student to see
         // If they already have user Data
         //right now we are taking the username from
@@ -42,6 +45,15 @@ class OpeningViewController: UIViewController, NSURLConnectionDataDelegate {
         
         
 */
+        //Creating the Swipe Gesture to move to the next view. 
+        let swipeRight:UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: Selector("continueToOpening"))
+        let swipeLeft:UISwipeGestureRecognizer = UISwipeGestureRecognizer(target: self, action: Selector("continueToOpening"))
+        //Setting the Direction of the Swipes.
+        swipeRight.direction = .Right
+        swipeLeft.direction = .Left
+        //Adding the gestures to the view.
+        view.addGestureRecognizer(swipeRight)
+        view.addGestureRecognizer(swipeLeft)
         //Adding the timer for the picture fade
         var fadeTimer:NSTimer? = nil
         
@@ -50,6 +62,12 @@ class OpeningViewController: UIViewController, NSURLConnectionDataDelegate {
         
         self.saveButton("17asantarelli", password: "94Estral")
     }
+    
+    func continueToOpening() {
+        let openChoiceController = self.storyboard!.instantiateViewControllerWithIdentifier("openChoice") as! OpenChoiceViewController
+        self.presentViewController(openChoiceController, animated: false, completion: nil)
+        
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -57,17 +75,19 @@ class OpeningViewController: UIViewController, NSURLConnectionDataDelegate {
     }
     
     func changeBackgrounds() {
-        self.timerIncrement++
-        let image1:UIImage = UIImage(named: "Panther Background")!
-        let image2:UIImage = UIImage(named: "Atrium Background")!
-        let image3:UIImage = UIImage(named: "Dandelion Background")!
+        
+        let image1:UIImage = UIImage(named: "Opening Background 1")!
+        let image2:UIImage = UIImage(named: "Opening Background 2")!
+        let image3:UIImage = UIImage(named: "Opening Background 3")!
         
         switch self.timerIncrement {
         case 1:
+            self.timerIncrement++
             println("This is the Panther Background")
             //self.openViewBackground = UIImageView(image: image1)
             self.changeBackgroundAnimation(image1)
         case 2:
+            self.timerIncrement++
             println("This is the Atrium Background")
             //self.openViewBackground = UIImageView(image: image2)
             self.changeBackgroundAnimation(image2)
@@ -82,8 +102,17 @@ class OpeningViewController: UIViewController, NSURLConnectionDataDelegate {
     }
     
     func changeBackgroundAnimation(background: UIImage) {
+        //Fading Out
         UIView.animateWithDuration(1.0, animations: {
-            self.openViewBackground = UIImageView(image: background)
+            self.openViewBackground.alpha = 0.75
+        })
+        
+        
+        //Fading In
+        self.openViewBackground.image = background
+        //self.openViewBackground.alpha = 0.75
+        UIView.animateWithDuration(1.0, animations: {
+            self.openViewBackground.alpha = 1.00
         })
     }
     //HomeButton Pressed
@@ -98,7 +127,7 @@ class OpeningViewController: UIViewController, NSURLConnectionDataDelegate {
         
         
         
- 
+        /*
         
         let verificationURLString = "https://www.cypanthers.org/ios/auth.php"
         
@@ -122,7 +151,7 @@ class OpeningViewController: UIViewController, NSURLConnectionDataDelegate {
         
         connection.start()
         
-        //******** THIS ALL HAPPENS AFTER WE HAVE VALIDATED THE USERNAME AND PASSWORD!!! ********
+        // ******** THIS ALL HAPPENS AFTER WE HAVE VALIDATED THE USERNAME AND PASSWORD!!! ********
         //let classYear = username.substringToIndex(NSMakeRange(0, 2))
         let classYear = 17
         let SUBusername = "asantarelli"
@@ -150,7 +179,7 @@ class OpeningViewController: UIViewController, NSURLConnectionDataDelegate {
         //save the channels imediately 
         install.saveInBackground()
     
-        
+        */
         
     }
     

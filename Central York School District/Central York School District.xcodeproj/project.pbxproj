@@ -32,6 +32,7 @@
 		FAA5E8F01B20CEDE007D60DE /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8EA1B20CEDE007D60DE /* ParseFacebookUtils.framework */; };
 		FAA5E8F11B20CEDE007D60DE /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8EB1B20CEDE007D60DE /* ParseFacebookUtilsV4.framework */; };
 		FAA5E8F21B20CEDE007D60DE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA5E8EC1B20CEDE007D60DE /* ParseUI.framework */; };
+		FAD8EA831B36555D0094A563 /* OpenChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8EA821B36555D0094A563 /* OpenChoiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		FAA5E8EA1B20CEDE007D60DE /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "parse-library-1.7.4/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
 		FAA5E8EB1B20CEDE007D60DE /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "parse-library-1.7.4/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
 		FAA5E8EC1B20CEDE007D60DE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "parse-library-1.7.4/ParseUI.framework"; sourceTree = "<group>"; };
+		FAD8EA821B36555D0094A563 /* OpenChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenChoiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				FAA5E8B31B207DB5007D60DE /* ViewController.swift */,
 				FA8F38411B228A7B0038451D /* ClassViewController.swift */,
 				17B382341B23B5300061ABFC /* OpeningViewController.swift */,
+				FAD8EA821B36555D0094A563 /* OpenChoiceViewController.swift */,
 				FAA5E8B51B207DB5007D60DE /* Main.storyboard */,
 				FAA5E8B81B207DB5007D60DE /* Images.xcassets */,
 				FAA5E8BA1B207DB5007D60DE /* LaunchScreen.xib */,
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD8EA831B36555D0094A563 /* OpenChoiceViewController.swift in Sources */,
 				FA8F38421B228A7B0038451D /* ClassViewController.swift in Sources */,
 				17B382351B23B5300061ABFC /* OpeningViewController.swift in Sources */,
 				FAA5E8B41B207DB5007D60DE /* ViewController.swift in Sources */,
